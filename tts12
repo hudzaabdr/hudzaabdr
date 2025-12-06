@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Personal Resume - CV</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background: linear-gradient(135deg, #6dd5fa, #2980b9);
+      color: #fff;
+    }
+    .container {
+      width: 80%;
+      margin: 50px auto;
+      background: rgba(255, 255, 255, 0.15);
+      padding: 30px;
+      border-radius: 20px;
+      backdrop-filter: blur(10px);
+      box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
+    }
+    h1 {
+      text-align: center;
+      margin-bottom: 20px;
+    }
+    .profile {
+      display: flex;
+      gap: 20px;
+      align-items: center;
+    }
+    .profile img {
+      width: 150px;
+      height: 150px;
+      object-fit: cover;
+      border-radius: 50%;
+      border: 3px solid #fff;
+    }
+    .info p {
+      margin: 5px 0;
+      font-size: 18px;
+    }
+    .socials a {
+      color: #fff;
+      text-decoration: none;
+      font-weight: bold;
+      margin-right: 15px;
+    }
+    .socials a:hover {
+      text-decoration: underline;
+    }
+    .video-section {
+      margin-top: 30px;
+      text-align: center;
+    }
+    video {
+      width: 80%;
+      border-radius: 15px;
+      border: 2px solid #fff;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1>My Personal Resume</h1>
+
+    <div class="profile">
+      <img src="DSC05687.jpg" alt="Profile Photo" />
+      <div class="info">
+        <p><strong>Full Name:</strong> Hudzaifah Abdurrahman</p>
+        <p><strong>Student ID:</strong> F3401241095</p>
+        <p><strong>Place of Origin:</strong> Sorong, Southwest Papua</p>
+
+        <div class="socials">
+          <p><strong>Social Media:</strong></p>
+          <a href="https://www.instagram.com/hudzaabdr?igsh=dDR0dzZpZjFnb2Vt" target="_blank">Instagram</a>
+          <a href="https://www.linkedin.com/in/hudzaabdr" target="_blank">LinkedIn</a>
+          <a href="https://github.com/hudzaabdr" target="_blank">GitHub</a>
+        </div>
+      </div>
+    </div>
+
+    <div class="video-section">
+      <h2>My Hobby Video</h2>
+      <video autoplay controls>
+        <source src="video nulis.mp4" type="video/mp4" />
+        Your browser does not support the video tag.
+      </video>
+    </div>
+  </div>
+</body>
+</html>
